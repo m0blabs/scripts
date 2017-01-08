@@ -8,7 +8,7 @@ COOKIE="/tmp/cookies$$.txt"
 
 echo " *---------------------------------*"
 echo " *   REINICIALIZADOR DE MODEMs     *"
-echo " *      Techinicolor TD5130        *"
+echo " *      Technicolor TD5130        *"
 echo " *---------------------------------*"
 echo ""
 
