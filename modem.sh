@@ -24,7 +24,7 @@ echo " Reinicializando..."
 curl -s --cookie $COOKIE \
         --data 'setobject_token=SESSION_CONTRACT_TOKEN_TAG%3D0123456789012345' \
         --data 'setobject_reboot=i1.3.6.1.4.1.283.1000.2.1.6.3.1.0%3D1' \
-        http://192.168.1.1/cgi-bin/setobject?/tools/reboot_done.shtml > /dev/null
+        http://$IP/cgi-bin/setobject?/tools/reboot_done.shtml > /dev/null
 
 [[ -e $COOKIE ]] && rm $COOKIE
 
