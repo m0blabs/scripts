@@ -14,7 +14,7 @@ echo "  Executando script para bloqueio de sites..."
 sysctl -q -w net.ipv4.ip_forward=1
 
 iptables -t filter -P FORWARD ACCEPT
-iptables -t filter -F FORWARD
+iptables -t filter -F
 iptables -t filter -X
 iptables -N SITES_BLOQUEADOS
 
