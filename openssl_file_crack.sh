@@ -9,7 +9,7 @@ FILE_DECRYPTED="/tmp/descriptografado"
 [[ -f $WORDLIST ]] 		|| { echo "Wordlist não existe!"; exit 1; }
 [[ -f $CIPHERS_LIST ]]		|| { echo "Lista de cifras não existe!"; exit 1; }
 [[ -f $FILE_ENCRYPTED ]]	|| { echo "Arquivo criptografado fornecido não existe!"; exit 1; }
-[[ -f $FILE_ENCRYPTED ]] 	&& rm $FILE_DECRYPTED
+[[ -f $FILE_DECRYPTED ]] 	&& rm $FILE_DECRYPTED
 
 while read CIPHER; do
 	echo " Usando cifra ${CIPHER}..."
