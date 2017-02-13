@@ -31,6 +31,7 @@
 					var_dump($server_output);
 					$value = false;
 					curl_close ($handler);
+					break;
 				}
 			}
 		}
