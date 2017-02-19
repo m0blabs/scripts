@@ -1,7 +1,6 @@
 #!/bin/bash
 # PwnerRank - CTF
 # Task: Programming/Calculator
-#
 # By Kingm0b_
 #
 
@@ -67,7 +66,7 @@ while true; do
 		AVG=$(avg "$NUMBERS")
 		echo -en " $AVG\n\n"
 		echo $AVG >&3
-	elif [ $SUM ]; then
+	elif [ $SUM -eq 0]; then
 		SUM=$(sum "$NUMBERS")
 		echo -en " $SUM\n\n"
 		echo $SUM >&3
