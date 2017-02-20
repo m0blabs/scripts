@@ -2,7 +2,6 @@
 # PwnerRank - CTF
 # Task: Programming/Calculator
 # By Kingm0b_
-#
 
 function max()
 {
